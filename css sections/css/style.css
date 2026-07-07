@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.blogs{
+    margin:60px auto;
+}
+
+.blogs h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:35px;
+}
+
+.container{
+       width: 90%;
+       margin: auto
+}
+
+.card{
+    display: inline-block;
+    width:30%;
+    margin: 1%;
+    background:white;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card img{
+    width:100%;
+}
+
+.content{
+    padding:20px;
+}
+
+.content h3{
+    margin-bottom:20px;
+    font-size:22px;
+}
+
+.content p{
+    color:gray;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.content a{
+    display:inline-block;
+    background:black;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+}
+
+
+.container {
+    width: 85%;    
+    margin: 0 auto; 
+}
+
+.tabs-section {
+    background-color: #f9f9f9; 
+}
+
+.tabs-menu {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%; 
+    font-size: 16px;
+}
+
+.tab-item {
+    padding: 40px; 
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid #444;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab-item.active {
+    background-color: #ff8c42;
+}
+
+.tab-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 50px;
+    padding: 0 40px; 
+    font-size: 16px;
+}
+
+.tab-content h2 { margin-bottom: 20px; }
+.tab-content p { color: gray; line-height: 1.7; margin-bottom: 20px; }
+
+.btn-common {
+    display: inline-block;
+    background: #ff8c42;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+
+.tab-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%; 
+    margin-left: 100px;
+    padding-bottom: 120px; 
+}
+
+.tab-image img {
+    width: 100%; 
+    -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0,0,0,0.3));
+    box-reflect: below 5px linear-gradient(transparent, rgba(0,0,0,0.3));
+}
+
+.contact-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-header h2 
+{    font-size: 32px;
+     margin-bottom: 10px; 
+}
+
+.contact-line {
+    border: none;
+    height: 2px;
+    background-color: #ff8c42;
+    width: 50px;
+    margin: 0 auto 40px;
+}
+
+.contact-form {
+    font-size: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-left, .form-right, .form-footer {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.form-left { width: 48%; margin-right: 4%; }
+.form-right { width: 48%; }
+
+.form-left input {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+}
+
+.form-right textarea {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    resize: none;
+}
+
+.form-footer 
+{ 
+width: 100%;
+text-align: center;
+margin-top: 20px;
+}
+
+ 
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+ 
+.header h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #2b2b2b;
+  letter-spacing: 2px;
+}
+ 
+.header .line {
+  width: 60px;
+  height: 2px;
+  background-color: #f2803e;
+  margin: 15px auto;
+}
+ 
+.header p {
+  color: #888;
+  font-size: 14px;
+}
+ 
+.pricing-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+ 
+.pricing-container {
+  text-align: center;
+  font-size: 0;
+}
+ 
+.plan {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 31%;
+  margin: 1%;
+  font-size: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+ 
+.plan.featured {
+  margin-top: calc(1% - 20px);
+}
+ 
+.plan-header {
+  background-color: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+}
+ 
+.plan-price {
+  background-color: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0 20px;
+}
+ 
+.plan-price .amount {
+  font-size: 48px;
+  font-weight: bold;
+}
+ 
+.plan-price .dollar {
+  font-size: 24px;
+  vertical-align: top;
+  position: relative;
+  top: 10px;
+}
+ 
+.plan-price .caption {
+  font-size: 13px;
+  color: #bbb;
+  font-style: italic;
+  margin-top: 5px;
+}
+ 
+.plan-badge {
+  background-color: #f2803e;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 0;
+}
+ 
+.plan-border {
+  height: 4px;
+  background-color: #f2803e;
+}
+ 
+.plan ul {
+  list-style: none;
+}
+ 
+.plan ul li {
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 13px;
+  color: #777;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #eee;
+}
+ 
+.plan ul li:last-child {
+  border-bottom: none;
+}
